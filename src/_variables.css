@@ -593,7 +593,7 @@
   --font-button-large-line-height: 100%;
   --font-button-large-paragraph-indent: 0;
   --font-button-large-paragraph-spacing: 0;
-  --font-button-large-text-case: none;
+  --font-button-large-text-case: uppercase;
   --font-button-extra-large-font-size: 24px;
   --font-button-extra-large-text-decoration: none;
   --font-button-extra-large-font-family: Source Sans Pro;
