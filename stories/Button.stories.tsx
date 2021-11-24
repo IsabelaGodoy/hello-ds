@@ -24,12 +24,19 @@ export default meta;
 
 const Template: Story<Props> = args => <Button {...args} />;
 
-export const Default = Template.bind({});
+export const Primary = Template.bind({});
+export const Secondary = Template.bind({});
 
-Default.args = {
+Primary.args = {
   children: 'Button',
+  variant: 'primary'
 };
-Default.parameters = {
+
+Secondary.args = {
+  children: 'Button',
+  variant: 'secondary'
+};
+Secondary.parameters = {
   design: {
     type: 'figma',
     url: 'https://www.figma.com/file/SRkbgOY5g8kwp6FhEAmusA/Design-System?node-id=143%3A5973',

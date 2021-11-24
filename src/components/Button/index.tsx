@@ -4,8 +4,9 @@ import './index.css';
 
 export interface Props extends HTMLAttributes<HTMLDivElement> {
   children?: ReactChild;
+  variant: string;
 }
 
-export const Button: FC<Props> = ({ children }) => {
-  return <button className="button">{children}</button>;
+export const Button: FC<Props> = ({ children, variant }) => {
+  return <button className={`button button-${variant}`}>{children}</button>;
 };

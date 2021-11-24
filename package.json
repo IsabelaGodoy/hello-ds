@@ -1,6 +1,6 @@
 {
   "name": "@adryan.rosa/components-library",
-  "version": "0.1.0-alpha-4",
+  "version": "0.1.0-alpha-7",
   "license": "MIT",
   "author": "Adryan Rosa",
   "main": "dist/index.js",
