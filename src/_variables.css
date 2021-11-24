@@ -593,7 +593,7 @@
   --font-button-large-line-height: 100%;
   --font-button-large-paragraph-indent: 0;
   --font-button-large-paragraph-spacing: 0;
-  --font-button-large-text-case: uppercase;
+  --font-button-large-text-case: none;
   --font-button-extra-large-font-size: 24px;
   --font-button-extra-large-text-decoration: none;
   --font-button-extra-large-font-family: Source Sans Pro;
@@ -605,7 +605,7 @@
   --font-button-extra-large-line-height: 100%;
   --font-button-extra-large-paragraph-indent: 0;
   --font-button-extra-large-paragraph-spacing: 0;
-  --font-button-extra-large-text-case: none;
+  --font-button-extra-large-text-case: uppercase;
   --font-card-heading-font-size: 16px;
   --font-card-heading-text-decoration: none;
   --font-card-heading-font-family: Source Sans Pro;
