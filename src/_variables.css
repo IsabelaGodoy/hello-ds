@@ -11,7 +11,7 @@
   --color-text-light: #a1a8c1;
   --color-text-dark: #434d7e;
   --color-text-contrast: #ffffff;
-  --color-highlight-default: #7bc5b8;
+  --color-highlight-default: #7bc583;
   --color-highlight-light: #a1d5a6;
   --color-highlight-dark: #42a64e;
   --color-highlight-contrast: #ffffff;
@@ -605,7 +605,7 @@
   --font-button-extra-large-line-height: 100%;
   --font-button-extra-large-paragraph-indent: 0;
   --font-button-extra-large-paragraph-spacing: 0;
-  --font-button-extra-large-text-case: uppercase;
+  --font-button-extra-large-text-case: none;
   --font-card-heading-font-size: 16px;
   --font-card-heading-text-decoration: none;
   --font-card-heading-font-family: Source Sans Pro;
