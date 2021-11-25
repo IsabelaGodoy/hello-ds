@@ -24,21 +24,21 @@ export default meta;
 
 const Template: Story<Props> = args => <Button {...args} />;
 
+export const Highlight = Template.bind({});
 export const Primary = Template.bind({});
-export const Secondary = Template.bind({});
 
-Primary.args = {
-  children: 'Button',
-  variant: 'primary'
+Highlight.args = {
+  children: 'Highlight',
+  variant: 'highlight'
 };
-
-Secondary.args = {
-  children: 'Button',
-  variant: 'secondary'
-};
-Secondary.parameters = {
+Highlight.parameters = {
   design: {
     type: 'figma',
-    url: 'https://www.figma.com/file/SRkbgOY5g8kwp6FhEAmusA/Design-System?node-id=143%3A5973',
+    url: 'https://www.figma.com/file/Qik8LRHbB8Z75X9aFsZVkA/001----Seminovos-Barigui----Componentes-(Copy)?node-id=82%3A422',
   },
 }
+
+Primary.args = {
+  children: 'Primary',
+  variant: 'primary'
+};
